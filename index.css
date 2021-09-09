@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100%;
+}
+
+.input_container{
+
+    position:absolute;
+    width:50%;
+    top: 25%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.addButton{
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.main{
+    background-image: url(https://thumbs.dreamstime.com/z/morning-coffee-to-do-list-calendar-notebook-table-cafe-cup-espresso-91185408.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.data_container{
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 59%;
+    padding-top: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.item_input{
+    width: 100%;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25%;
+}
+.editButton{
+
+    width: 10%;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.removeButton{
+    
+    width: 10%;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
